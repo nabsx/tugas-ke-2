@@ -1,0 +1,141 @@
+:root {
+  --coklat: #cd5c08;
+  --cream: #f5e8b7;
+  --ijo: #c1d8c3;
+  --ijotuo: #6a9c89;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin-inline: 100px;
+}
+
+nav {
+  background-color: var(--coklat);
+  color: white;
+  padding-block: 18px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 black(0, 0, 0, 0.2);
+}
+
+nav .container {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  margin-inline: 10px;
+  font-size: 18px;
+}
+
+#home {
+  background-color: var(--cream);
+  text-align: center;
+}
+
+#home img {
+  width: 200px;
+  border-radius: 100%;
+  border: solid 1px var(--coklat);
+}
+
+#home h1 {
+  font-size: 30px;
+}
+
+section {
+  padding-block: 30px;
+}
+
+.tittle {
+  font-size: 35px;
+  text-align: center;
+  margin-block: 40px;
+}
+
+#about p {
+  font-size: 20px;
+}
+
+#socialmedia ion-icon {
+  font-size: 60px;
+  color: rgb(137, 134, 134);
+  justify-content: center;
+}
+
+#socialmedia {
+  background-color: var(--cream);
+}
+
+.gmail .box-container {
+  display: flex;
+}
+
+.gmail .box {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: solid 1px;
+  border-radius: 10px;
+
+  padding: 20px;
+}
+
+#socialmedia .form {
+  text-align: center;
+}
+
+.gmail img {
+  width: 40px;
+}
+
+.gmail .box:hover {
+  background-color: var(--ijo);
+}
+
+#socialmedia form {
+  padding-inline: 300px;
+}
+
+#socialmedia input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px;
+  margin-bottom: 10px;
+  margin-block: 10;
+}
+
+#socialmedia label {
+  font-weight: 500;
+}
+
+#socialmedia button {
+  display: block;
+  margin-inline: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: solid 1px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--ijotuo);
+  color: white;
+  padding: 20px;
+}
